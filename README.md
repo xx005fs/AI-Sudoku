@@ -17,6 +17,7 @@ There's another project on GitHub that solves Sudoku board using a similar appro
 I think Python is a very easy language to learn since I have basically written the GUI part of the program starting with zero knowledge in the language. Due to the past experience with Java I think Python is an incredibly easy language to learn since its syntax is really similar to a script language and it's very similar to an actual conversation. When writing Python, unlike Java, I don't have to focus on the syntax that much, instead I focus more on how the program actually works, and I feel like that's a lot simpler to code than Java is. 
 # Credits
 Special thanks to Armando Banuelos from StreetCode Academy giving me insights in how to design the model for the CNN Policy Value net.
+http://ccg.doc.gold.ac.uk/ccg_old/teaching/ludic_computing/ludic16.pdf
 https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/train.py
 https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/policy_value_net_tensorflow.py 
 https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/mcts_pure.py
