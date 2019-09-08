@@ -15,3 +15,13 @@ I think the reason why it fails is that Sudoku isn't just a simple board game. S
 There's another project on GitHub that solves Sudoku board using a similar approach than image processing would, that is taking a huge amount of data of Sudoku boards and uses CNN to figure out the patterns between them. (source https://github.com/Kyubyong/sudoku) However, this method doesn't really work that well either, despite the extremely fast converge rate at the beginning of the game (from being extremely inaccurate at a loss of over 150 down to 1.6), it is still unable to solve most Sudoku boards. The conclusion I have drawn from either attempts is that I personally think that Sudoku is a game that is so strict on rules and an AI is way too flexible for it, and traditional computing methods would have a great advantage over AI both in terms of speed and accuracy.
 # My thoughts on Python vs Java
 I think Python is a very easy language to learn since I have basically written the GUI part of the program starting with zero knowledge in the language. Due to the past experience with Java I think Python is an incredibly easy language to learn since its syntax is really similar to a script language and it's very similar to an actual conversation. When writing Python, unlike Java, I don't have to focus on the syntax that much, instead I focus more on how the program actually works, and I feel like that's a lot simpler to code than Java is. 
+# Credits
+Special thanks to Armando Banuelos from StreetCode Academy giving me insights in how to design the model for the CNN Policy Value net.
+https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/train.py
+https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/policy_value_net_tensorflow.py 
+https://github.com/junxiaosong/AlphaZero_Gomoku/blob/master/mcts_pure.py
+https://deepmind.com/blog/article/alphago-zero-starting-scratch
+https://www.geeksforgeeks.org/python-grid-method-in-tkinter/ (geeksforgeeks is a very helpful site for clearing up confusing topics in both Python and Java with great examples)
+https://tkdocs.com/tutorial/fonts.html
+http://newcoder.io/gui/part-3/ (simple Sudoku game that's partially adapted on my version)
+https://zhuanlan.zhihu.com/p/25723112
